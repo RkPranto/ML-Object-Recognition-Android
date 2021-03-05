@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ML-Project</string>
+    <string name="activity_2_head">This app uses cognitive services of IBM Watson and Google ML Kit to classify images</string>
+    <string name="activity_3_head">Click capture to open the camera and take a picture or load images</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "382979348163",
+    "project_id": "ml-project-26b17",
+    "storage_bucket": "ml-project-26b17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382979348163:android:0aea23f6fd0039f4f5f476",
+        "android_client_info": {
+          "package_name": "com.rezwan_cs.ml_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382979348163-bm71p54oo8sn079e88qsdun4e7b5b9ii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfDSve_hVkgpLPiCo8wxX0vAP5CxUgnwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382979348163-bm71p54oo8sn079e88qsdun4e7b5b9ii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

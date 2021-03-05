@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ImageChooserActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/activity_3_head"
+        android:padding="15dp"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:foreground="?selectableItemBackground"
+        android:layout_weight="3"
+        android:id="@+id/iv_image"
+        android:src="@drawable/ibm_ml_image"
+        android:layout_margin="15dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Capture"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:backgroundTint="#3C3636"
+            android:id="@+id/btn_capture"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Load"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginRight="15dp"
+            android:backgroundTint="#3C3636"
+            android:id="@+id/btn_load"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/tv_view"
+        android:text="Hello asfdjklasd asdflk asdflkasdf l"/>
+</LinearLayout>

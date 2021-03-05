@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/activity_2_head"
+        android:padding="15dp"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:foreground="?selectableItemBackground"
+        android:layout_weight="3"
+        android:id="@+id/iv_ibm_watson_ml"
+        android:src="@drawable/ibm_ml_image"
+        android:layout_margin="15dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:foreground="?selectableItemBackground"
+        android:id="@+id/iv_ml_kit"
+        android:src="@drawable/ml_kit_image"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        />
+
+
+
+
+</LinearLayout>
